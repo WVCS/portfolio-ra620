@@ -18,21 +18,3 @@
 </body>
 </html>
 <!DOCTYPE html>
-
-    setScreen("Default");
-onEvent("Puppet", "click", function() {
-  console.log("Puppet clicked!");
-  setPosition("Puppet", randomNumber(100, 300), randomNumber(100, 300));
-});
-onEvent("BackgroundImage", "click", function() {
-  console.log("BackgroundImage clicked!");
-  setScreen("screen2");
-});
-onEvent("button2", "click", function(event) {
-  console.log("button2 clicked!");
-  setScreen("image1");
-});
-onEvent("button5", "click", function(event) {
-  console.log("button5 clicked!");
-  setScreen("Default");
-});
